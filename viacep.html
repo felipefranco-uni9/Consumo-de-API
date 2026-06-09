@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumo de API Via CEP</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f4f4f9; }
+        .container { background: white; padding: 20px; border-radius: 8px; max-width: 400px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        input { padding: 8px; width: 60%; margin-right: 5px; border: 1px solid #ccc; border-radius: 4px; }
+        button { padding: 8px 15px; cursor: pointer; background-color: #007bff; color: white; border: none; border-radius: 4px; }
+        button:hover { background-color: #0056b3; }
+        #resultado { margin-top: 20px; padding: 10px; border-top: 2px solid #007bff; display: none; }
+        .erro { color: red; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Buscar Endereço</h2>
+        
+        <input type="text" id="cep" placeholder= maxlength="9">
+        <button id="btnPesquisar">Pesquisar</button>
+
+        <div id="resultado"></div>
+    </div>
+
+    <script src="https://code.google.com/p/jquery/ ou cdnjs" -> <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    
+    <script src="viacep.js"></script>
+</body>
+</html>
